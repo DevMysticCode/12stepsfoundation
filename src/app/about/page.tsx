@@ -46,6 +46,7 @@ export default function About() {
           <Reveal delay={100} className="prose">
             <p>Addiction quietly reshapes lives: health, relationships, work, money, self-respect. For families in Odisha, finding honest, compassionate help close to home can be hard, and the stigma around addiction makes it harder still.</p>
             <p>We exist to offer a place where a person can ask for help without being judged, and where a family can ask questions without being blamed. Our work is built around dignity, structure, counselling, community and long-term support.</p>
+            <p>The centre is affiliated with Narcotics Anonymous, the worldwide fellowship of people in recovery, and marks recovery anniversaries together as a community.</p>
             <p>The centre keeps a shared daily routine that includes prayer, yoga, pranayama, counselling sessions, meals, recreation and group sharing, because recovery is built in the details of ordinary days.</p>
           </Reveal>
         </div>
@@ -54,7 +55,7 @@ export default function About() {
       <section className="section" style={{ paddingTop: 0 }}>
         <div className="wrap">
           <Reveal>
-            <Photo src="/images/gathering-anniversary" alt="Residents and visitors gathered in the centre's hall for a recovery anniversary; faces blurred for privacy" sizes="(max-width: 1240px) 100vw, 1144px" ratio="16/9" caption="Recovery is shared. A gathering at the centre, November 2026" position="50% 45%" />
+            <Photo src="/images/gathering-anniversary" alt="Residents and visitors gathered in the centre's hall for a recovery anniversary; faces blurred for privacy" sizes="(max-width: 1240px) 100vw, 1144px" ratio="16/9" caption="Recovery is shared. A Narcotics Anonymous recovery anniversary at the centre, November 2026" position="50% 45%" />
             <p className="photo-note">Faces are blurred to protect everyone’s privacy.</p>
           </Reveal>
         </div>

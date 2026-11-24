@@ -4,6 +4,7 @@ import { Breadcrumbs, ClosingCta, Eyebrow, PlaceholderNote } from '@/components/
 import JourneyMap from '@/components/JourneyMap';
 import Reveal from '@/components/Reveal';
 import { schedule } from '@/content/general';
+import { Photo } from '@/components/ui';
 
 export const metadata = pageMeta({
   title: 'Our 12-Step Recovery Approach',
@@ -57,6 +58,14 @@ export default function Approach() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="section" style={{ paddingBottom: 0 }}>
+        <div className="wrap">
+          <Reveal>
+            <Photo src="/images/sharing-session" alt="Residents and visitors seated together in the centre's hall during a sharing session, some applauding" sizes="(max-width: 1240px) 100vw, 1144px" ratio="16/9" caption="A sharing session at the centre. Shown with the consent of those pictured." position="50% 55%" />
+          </Reveal>
         </div>
       </section>
 
