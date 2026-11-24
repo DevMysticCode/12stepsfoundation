@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { pageMeta } from '@/lib/seo';
-import { Breadcrumbs, ClosingCta, Eyebrow } from '@/components/ui';
+import { Breadcrumbs, ClosingCta, Eyebrow, Photo } from '@/components/ui';
 import Reveal from '@/components/Reveal';
 import { site, telHref, whatsappHref } from '@/config/site';
 
@@ -35,9 +35,22 @@ export default function Stories() {
           <Reveal delay={100}>
             <div className="belief" style={{ borderTop: '1px solid var(--charcoal)' }}>
               {promises.map(([t, d]) => (
-                <article key={t} style={{ gridTemplateColumns: '1fr' }}><h3 style={{ fontSize: '1.7rem' }}>{t}</h3><p>{d}</p></article>
+                <article key={t} style={{ gridTemplateColumns: '1fr', alignItems: 'start', gap: '0.5rem' }}><h3 style={{ fontSize: '1.7rem' }}>{t}</h3><p>{d}</p></article>
               ))}
             </div>
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="wrap split split--rev">
+          <Reveal>
+            <Photo src="/images/gathering-circle" alt="Residents seated together in the centre's hall facing a row of visitors, with balloons on the wall; faces blurred for privacy" sizes="(max-width: 900px) 100vw, 55vw" ratio="4/3" caption="Milestones are marked together" position="50% 50%" />
+            <p className="photo-note">Faces are blurred. This is not a testimonial; it shows the community that surrounds recovery.</p>
+          </Reveal>
+          <Reveal delay={100}>
+            <h2 className="h2">Recovery is <em>marked together.</em></h2>
+            <p className="lede" style={{ marginTop: '1rem' }}>Anniversaries and milestones are moments the whole community can share in. Individual stories will appear here only once the people who lived them are ready, and on their terms.</p>
           </Reveal>
         </div>
       </section>

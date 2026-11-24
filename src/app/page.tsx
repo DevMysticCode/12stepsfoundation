@@ -199,7 +199,7 @@ export default function Home() {
             </Reveal>
           </div>
           <Reveal className="mosaic">
-            <Photo src="/images/hall-prayer" alt="Residents seated together in the centre's hall, photographed from behind" sizes="(max-width: 900px) 100vw, 55vw" caption="Group gathering in our hall" position="50% 55%" />
+            <Photo src="/images/gathering-anniversary" alt="Residents and visitors gathered in the centre's hall for a recovery anniversary, with balloons and the daily activity chart on the wall; faces blurred for privacy" sizes="(max-width: 900px) 100vw, 55vw" caption="A recovery anniversary gathering at the centre, November 2026" position="50% 55%" />
             <Photo src="/images/yoga" alt="Residents practising yoga, faces blurred for privacy" sizes="(max-width: 900px) 50vw, 35vw" caption="Yoga" position="50% 35%" />
             <Photo src="/images/carrom" alt="Residents playing carrom, faces blurred for privacy" sizes="(max-width: 900px) 50vw, 35vw" caption="Recreation" />
           </Reveal>

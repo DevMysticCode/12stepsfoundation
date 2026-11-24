@@ -51,6 +51,15 @@ export default function About() {
         </div>
       </section>
 
+      <section className="section" style={{ paddingTop: 0 }}>
+        <div className="wrap">
+          <Reveal>
+            <Photo src="/images/gathering-anniversary" alt="Residents and visitors gathered in the centre's hall for a recovery anniversary; faces blurred for privacy" sizes="(max-width: 1240px) 100vw, 1144px" ratio="16/9" caption="Recovery is shared. A gathering at the centre, November 2026" position="50% 45%" />
+            <p className="photo-note">Faces are blurred to protect everyone’s privacy.</p>
+          </Reveal>
+        </div>
+      </section>
+
       <section className="section on-dark">
         <div className="wrap">
           <Eyebrow>What we believe</Eyebrow>

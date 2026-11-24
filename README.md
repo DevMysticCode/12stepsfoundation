@@ -49,6 +49,8 @@ See `.env.example`. Set `NEXT_PUBLIC_SITE_URL` to the real domain before launch 
 
 Only the centre's own photographs are used. Faces are blurred or out of frame. Designed flyers supplied with the brief contain AI-generated people and are **not** used as photography. The unblurred office photo is withheld pending consent.
 
+Photos `gathering-anniversary` and `gathering-circle` come from the second batch. Faces were covered with hand-placed regions (`scripts/blur-faces.py`, coordinates in `scripts/blur-faces.json`) and visually checked, but automated blurring is not a substitute for consent: **confirm everyone shown is comfortable being published**, or replace with photos where faces are not visible. The third photo of that batch (`IMG_20261119_195902`, wide-angle) is withheld because faces could not be reliably covered. Captions describing a "recovery anniversary, November 2026" are read from the banner in the photos. Please confirm.
+
 ## SEO / structure
 
 Per-page metadata + canonical + Open Graph, breadcrumbs with JSON-LD, FAQPage JSON-LD, `Organization` JSON-LD limited to verified facts (deliberately **not** `MedicalClinic`/`LocalBusiness` until registration is confirmed), `sitemap.xml`, `robots.txt`.
